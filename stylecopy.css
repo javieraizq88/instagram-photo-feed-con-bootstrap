@@ -1,0 +1,40 @@
+body {
+    background-color: #ccc;
+}
+
+.col{
+    background-color: white;
+}
+
+.caja {
+    width: 400px;
+    background-color: white;
+    margin: 20px auto;
+}
+.caja .caja-header{
+    width: 100%;
+    background-color: blue;
+    margin: 0px auto;
+}
+.caja .caja-header .caja-header-left{
+    width: 50%;
+    float: left;
+}
+.caja .caja-header .caja-header-right{
+    width: 50%;
+    float: left;
+    text-align: right;
+}
+.caja .caja-body img {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+    border: 0px;
+}
+.caja .caja-icons i{
+    margin: 2px;
+}
+.caja .caja-icons i:nth-child(4){
+    margin: 2px;
+    float: right;
+}
