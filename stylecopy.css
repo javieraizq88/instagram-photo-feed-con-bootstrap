@@ -14,7 +14,57 @@ h1{
     padding-left: 5px;
 }
 
-#imagen{
 
+
+.titulo{
+    margin-top: 0;
+    background-color: white;
+    text-align: center;
+    height: 60px;
+    padding-top: 15px;
+margin-top: 15px;    
 }
+
+.caja {
+    width: 450px;
+    background-color: white;
+    margin: 20px auto;
+    padding-top: 10px;
+    padding-bottom: 1px;
+    padding-left: 12px;
+    padding-right: 12px;
+}
+.caja .caja-header{
+    width: 100%;
+    margin: 0px auto;
+}
+.caja .caja-header .caja-header-left{
+    width: 50%;
+    float: left;
+}
+.caja .caja-header .caja-header-right{
+    width: 50%;
+    float: left;
+    text-align: right;
+}
+.caja .caja-body img {
+    width: 100%;
+    margin-top: 5px;
+    height: 300px;
+    object-fit: cover;
+    border: 0px;
+}
+.caja .caja-icons i{
+    margin: 2px;
+}
+.caja .caja-icons i:nth-child(4){
+    margin: 2px;
+    float: right;
+}
+
+.caja-text{
+    text-align: justify;
+}
+
+
 

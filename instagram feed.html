@@ -11,120 +11,325 @@
 </head>
 
 <body>
-  <nav class="navbar navbar-expand-lg navbar-light bg-light">
-    <i class="fab fa-instagram p-2"></i>
-    <br>
-    <a class="navbar-brand p-2" href="#">Instagram</a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-  
-    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-      <ul class="navbar-nav mr-auto"></ul>
-      <form class="form-inline my-2 my-lg-0">
-        <ul class="navbar-nav mr-auto">
-          <button class="btn btn-success" type="submit" >Create a new post</button>
-        <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-            <i class="fas fa-cog"></i>
-          </a>
-          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-            <a class="dropdown-item" href="#">Action</a>
-            <a class="dropdown-item" href="#">Another action</a>
-            <div class="dropdown-divider"></div>
-            <a class="dropdown-item" href="#">Something else here</a>
-          </div>
-        </li>
-      </ul>
-      </form>
-    </div>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <i class="fab fa-instagram p-2"></i>
+        <br>
+        <h1 class="navbar-brand p-2">Instagram</h1>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
     
-  </nav>
-  
-<div class="col">
-  <ul class="nav justify-content-center nav-pills">
-    <li class="nav-item p-2">
-      <a class="nav-link fas fa-list-ul" href="file:///C:/Users/javie/OneDrive/Escritorio/4geeks/proyectos/dia2InstagramPhotoFeedConBootstrap/index.html"></a>
-    </li>
-    <li class="nav-item p-2">
-      <a class="nav-link active fas fa-square" href="#"></a>
-    </li>
-  </ul>
-</div>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto"></ul>
+          <form class="form-inline my-2 my-lg-0">
+            <ul class="navbar-nav mr-auto">
+              <button class="btn btn-success" type="submit" data-toggle="modal" data-target="#exampleModal">Create a new
+                post</button>
+    
+              <!-- Default dropleft button -->
+              <div id="dropdown" class="btn-group dropleft">
+                <button type="button" class="btn btn-secondary dropdown-toggle" data-toggle="dropdown" aria-haspopup="true"
+                  aria-expanded="false">
+                  <i class="fas fa-cog"></i>
+                </button>
+                <div class="dropdown-menu">
+                  <a class="dropdown-item" href="#">Action</a>
+                  <a class="dropdown-item" href="#">Another action</a>
+                  <a class="dropdown-item" href="#">Something else here</a>
+                  <!-- Dropdown menu links -->
+                </div>
+              </div>
+            </ul>
+          </form>
+        </div>
+      </nav>
 
-  <div class="caja">
-    <div class="caja-header">
-        <div class="caja-header-left">My first photo</div>
-        <div class="caja-header-right">14/12</div>
-    </div>
-    <div class="caja-body">
-        <img src="https://picsum.photos/seed/picsum/400/300" alt="">
-    </div>
-
-    <div class="caja-text">
-        <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor, repellat. Odit maiores
-            eligendi harum recusandae, sequi sunt blanditiis similique veritatis, mollitia eius optio
-            hic. Debitis hic nam repudiandae similique minus!
-        </p>
-    </div>
-</div>
-
-<div class="caja">
-    <div class="caja-header">
-        <div class="caja-header-left">My first photo</div>
-        <div class="caja-header-right">14/12</div>
-    </div>
-    <div class="caja-body">
-        <img src="https://www.movilzona.es/app/uploads/2018/10/app-foto-movimiento.jpg?x=810" alt="">
-    </div>
-
-    <div class="caja-text">
-        <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor, repellat. Odit maiores
-            eligendi harum recusandae, sequi sunt blanditiis similique veritatis, mollitia eius optio
-            hic. Debitis hic nam repudiandae similique minus!
-        </p>
-    </div>
-</div>
+      <div class="col">
+        <ul class="nav justify-content-center nav-pills">
+          <li class="nav-item p-2">
+            <a class="nav-link  fas fa-list-ul" href="#"></a>
+          </li>
+          <li class="nav-item p-2">
+            <a class="nav-link active fas fa-square"
+              href="file:///C:/Users/javie/OneDrive/Escritorio/4geeks/proyectos/dia2InstagramPhotoFeedConBootstrap/index.html"></a>
+          </li>
+        </ul>
+      </div>
 
 
-<div class="caja">
-    <div class="caja-header">
-        <div class="caja-header-left">My first photo</div>
-        <div class="caja-header-right">14/12</div>
-    </div>
-    <div class="caja-body">
-        <img src="https://s03.s3c.es/imag/_v0/770x420/6/8/7/Fotos-del-sol-durante-un-ano.jpg" alt="">
-    </div>
-
-    <div class="caja-text">
-        <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor, repellat. Odit maiores
-            eligendi harum recusandae, sequi sunt blanditiis similique veritatis, mollitia eius optio
-            hic. Debitis hic nam repudiandae similique minus!
-        </p>
-    </div>
-</div>
-
-
-<div class="caja">
-    <div class="caja-header">
-        <div class="caja-header-left">My first photo</div>
-        <div class="caja-header-right">14/12</div>
-    </div>
-    <div class="caja-body">
-        <img src="https://cdn.pixabay.com/photo/2014/06/01/21/05/photo-effect-359981_960_720.jpg" alt="">
-    </div>
-
-    <div class="caja-text">
-        <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor, repellat. Odit maiores
-            eligendi harum recusandae, sequi sunt blanditiis similique veritatis, mollitia eius optio
-            hic. Debitis hic nam repudiandae similique minus!
-        </p>
+      <div class="caja">
+        <div class="caja-header">
+            <div class="caja-header-left">
+                <div class="">
+                    <!-- <i class="far fa-address-book"></i> -->
+                    <div class="">
+                        HTML5<br>
+                        Rigoberto
+                    </div>
+                </div>
+            </div>
+            <div class="caja-header-right">
+                <i id="imagen-superior-derecha" class="far fa-address-card"></i>
+            </div>
+        </div>
+        <div class="caja-body">
+            <img src="https://picsum.photos/id/34/400/300" alt="">
+        </div>
+        <div class="caja-icons">
+            <i class="far fa-heart fa-1x"></i>
+            <i class="far fa-comment  fa-1x"></i>
+            <i class="far fa-paper-plane fa-1x"></i>
+            <i class="far fa-bookmark  fa-1x"></i>
+        </div>
+        <div class="caja-text">
+            <p>Liked by <strong>4GeeksAcademy, HTML5. Web</strong> and <strong>100,000 others</strong></p>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor, repellat. Odit maiores
+                eligendi harum recusandae, sequi sunt blanditiis similique veritatis, mollitia eius optio
+                hic. Debitis hic nam repudiandae similique minus!
+            </p>
+        </div>
     </div>
 
+    <div class="caja">
+        <div class="caja-header">
+            <div class="caja-header-left">
+                <div class="">
+                    <!-- <i class="far fa-address-book"></i> -->
+                    <div class="">
+                        HTML5<br>
+                        Rigoberto
+                    </div>
+                </div>
+            </div>
+            <div class="caja-header-right">
+                <i id="imagen-superior-derecha" class="far fa-address-card"></i>
+            </div>
+        </div>
+        <div class="caja-body">
+            <img src="https://picsum.photos/id/3/400/300" alt="">
+        </div>
+        <div class="caja-icons">
+            <i class="far fa-heart fa-1x"></i>
+            <i class="far fa-comment  fa-1x"></i>
+            <i class="far fa-paper-plane fa-1x"></i>
+            <i class="far fa-bookmark  fa-1x"></i>
+        </div>
+        <div class="caja-text">
+            <p>Liked by <strong>4GeeksAcademy, HTML5. Web</strong> and <strong>100,000 others</strong></p>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor, repellat. Odit maiores
+                eligendi harum recusandae, sequi sunt blanditiis similique veritatis, mollitia eius optio
+                hic. Debitis hic nam repudiandae similique minus!
+            </p>
+        </div>
+    </div>
+
+    <div class="caja">
+        <div class="caja-header">
+            <div class="caja-header-left">
+                <div class="">
+                    <!-- <i class="far fa-address-book"></i> -->
+                    <div class="">
+                        HTML5<br>
+                        Rigoberto
+                    </div>
+                </div>
+            </div>
+            <div class="caja-header-right">
+                <i id="imagen-superior-derecha" class="far fa-address-card"></i>
+            </div>
+        </div>
+        <div class="caja-body">
+            <img src="https://picsum.photos/id/304/400/300" alt="">
+        </div>
+        <div class="caja-icons">
+            <i class="far fa-heart fa-1x"></i>
+            <i class="far fa-comment  fa-1x"></i>
+            <i class="far fa-paper-plane fa-1x"></i>
+            <i class="far fa-bookmark  fa-1x"></i>
+        </div>
+        <div class="caja-text">
+            <p>Liked by <strong>4GeeksAcademy, HTML5. Web</strong> and <strong>100,000 others</strong></p>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor, repellat. Odit maiores
+                eligendi harum recusandae, sequi sunt blanditiis similique veritatis, mollitia eius optio
+                hic. Debitis hic nam repudiandae similique minus!
+            </p>
+        </div>
+    </div>
+
+    <div class="caja">
+        <div class="caja-header">
+            <div class="caja-header-left">
+                <div class="">
+                    <!-- <i class="far fa-address-book"></i> -->
+                    <div class="">
+                        HTML5<br>
+                        Rigoberto
+                    </div>
+                </div>
+            </div>
+            <div class="caja-header-right">
+                <i id="imagen-superior-derecha" class="far fa-address-card"></i>
+            </div>
+        </div>
+        <div class="caja-body">
+            <img src="https://picsum.photos/id/354/400/300" alt="">
+        </div>
+        <div class="caja-icons">
+            <i class="far fa-heart fa-1x"></i>
+            <i class="far fa-comment  fa-1x"></i>
+            <i class="far fa-paper-plane fa-1x"></i>
+            <i class="far fa-bookmark  fa-1x"></i>
+        </div>
+        <div class="caja-text">
+            <p>Liked by <strong>4GeeksAcademy, HTML5. Web</strong> and <strong>100,000 others</strong></p>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor, repellat. Odit maiores
+                eligendi harum recusandae, sequi sunt blanditiis similique veritatis, mollitia eius optio
+                hic. Debitis hic nam repudiandae similique minus!
+            </p>
+        </div>
+    </div>
+
+    <div class="caja">
+        <div class="caja-header">
+            <div class="caja-header-left">
+                <div class="">
+                    <!-- <i class="far fa-address-book"></i> -->
+                    <div class="">
+                        HTML5<br>
+                        Rigoberto
+                    </div>
+                </div>
+            </div>
+            <div class="caja-header-right">
+                <i id="imagen-superior-derecha" class="far fa-address-card"></i>
+            </div>
+        </div>
+        <div class="caja-body">
+            <img src="https://picsum.photos/id/90/400/300" alt="">
+        </div>
+        <div class="caja-icons">
+            <i class="far fa-heart fa-1x"></i>
+            <i class="far fa-comment  fa-1x"></i>
+            <i class="far fa-paper-plane fa-1x"></i>
+            <i class="far fa-bookmark  fa-1x"></i>
+        </div>
+        <div class="caja-text">
+            <p>Liked by <strong>4GeeksAcademy, HTML5. Web</strong> and <strong>100,000 others</strong></p>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor, repellat. Odit maiores
+                eligendi harum recusandae, sequi sunt blanditiis similique veritatis, mollitia eius optio
+                hic. Debitis hic nam repudiandae similique minus!
+            </p>
+        </div>
+    </div>
+
+    <div class="caja">
+        <div class="caja-header">
+            <div class="caja-header-left">
+                <div class="">
+                    <!-- <i class="far fa-address-book"></i> -->
+                    <div class="">
+                        HTML5<br>
+                        Rigoberto
+                    </div>
+                </div>
+            </div>
+            <div class="caja-header-right">
+                <i id="imagen-superior-derecha" class="far fa-address-card"></i>
+            </div>
+        </div>
+        <div class="caja-body">
+            <img src="https://picsum.photos/id/46/400/300" alt="">
+        </div>
+        <div class="caja-icons">
+            <i class="far fa-heart fa-1x"></i>
+            <i class="far fa-comment  fa-1x"></i>
+            <i class="far fa-paper-plane fa-1x"></i>
+            <i class="far fa-bookmark  fa-1x"></i>
+        </div>
+        <div class="caja-text">
+            <p>Liked by <strong>4GeeksAcademy, HTML5. Web</strong> and <strong>100,000 others</strong></p>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor, repellat. Odit maiores
+                eligendi harum recusandae, sequi sunt blanditiis similique veritatis, mollitia eius optio
+                hic. Debitis hic nam repudiandae similique minus!
+            </p>
+        </div>
+    </div>
+
+    <div class="caja">
+        <div class="caja-header">
+            <div class="caja-header-left">
+                <div class="">
+                    <!-- <i class="far fa-address-book"></i> -->
+                    <div class="">
+                        HTML5<br>
+                        Rigoberto
+                    </div>
+                </div>
+            </div>
+            <div class="caja-header-right">
+                <i id="imagen-superior-derecha" class="far fa-address-card"></i>
+            </div>
+        </div>
+        <div class="caja-body">
+            <img src="https://picsum.photos/id/496/400/300" alt="">
+        </div>
+        <div class="caja-icons">
+            <i class="far fa-heart fa-1x"></i>
+            <i class="far fa-comment  fa-1x"></i>
+            <i class="far fa-paper-plane fa-1x"></i>
+            <i class="far fa-bookmark  fa-1x"></i>
+        </div>
+        <div class="caja-text">
+            <p>Liked by <strong>4GeeksAcademy, HTML5. Web</strong> and <strong>100,000 others</strong></p>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor, repellat. Odit maiores
+                eligendi harum recusandae, sequi sunt blanditiis similique veritatis, mollitia eius optio
+                hic. Debitis hic nam repudiandae similique minus!
+            </p>
+        </div>
+    </div>
+
+    <div class="caja">
+        <div class="caja-header">
+            <div class="caja-header-left">
+                <div class="">
+                    <!-- <i class="far fa-address-book"></i> -->
+                    <div class="">
+                        HTML5<br>
+                        Rigoberto
+                    </div>
+                </div>
+            </div>
+            <div class="caja-header-right">
+                <i id="imagen-superior-derecha" class="far fa-address-card"></i>
+            </div>
+        </div>
+        <div class="caja-body">
+            <img src="https://picsum.photos/id/6/400/300" alt="">
+        </div>
+        <div class="caja-icons">
+            <i class="far fa-heart fa-1x"></i>
+            <i class="far fa-comment  fa-1x"></i>
+            <i class="far fa-paper-plane fa-1x"></i>
+            <i class="far fa-bookmark  fa-1x"></i>
+        </div>
+        <div class="caja-text">
+            <p>Liked by <strong>4GeeksAcademy, HTML5. Web</strong> and <strong>100,000 others</strong></p>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor, repellat. Odit maiores
+                eligendi harum recusandae, sequi sunt blanditiis similique veritatis, mollitia eius optio
+                hic. Debitis hic nam repudiandae similique minus!
+            </p>
+        </div>
+    </div>
+   
 
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
